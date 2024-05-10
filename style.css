@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.header {
+  background-image: url(/Roh_Doces/Assets/cupcakeG.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* -----------Componentes do Hamburguer Icon------- */
+
+.nav-list {
+  max-width: 1280px;
+  height: 70px;
+  margin-inline: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  list-style: none;
+  gap: 0px;
+  background: #fb9ac3;
+
+  clip-path: circle(100px at 90% -15%);
+  transition: 1s ease-out;
+
+  pointer-events: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav.active .nav-list {
+  clip-path: circle(1500px at 90% -15%);
+  pointer-events: all;
+}
+
+.nav.active .nav-list a {
+  opacity: 1;
+}
+
+.nav.active .hamburguer {
+  position: fixed;
+  top: 26px;
+  right: 16px;
+  border-top-color: transparent;
+}
+
+.nav.active .hamburguer::before {
+  transform: rotate(135deg);
+}
+
+nav.active .hamburguer::after {
+  transform: rotate(-135deg);
+  top: -7px;
+}
+
+.nav-list a {
+  font-size: 24px;
+  color: #fff;
+  padding-block: 16px;
+  opacity: 0;
+}
+
+.nav-list li:nth-child(1) a {
+  transition: 0.5s 0.2s;
+}
+
+.nav-list li:nth-child(2) a {
+  transition: 0.5s 0.4s;
+}
+
+.nav-list li:nth-child(3) a {
+  transition: 0.5s 0.6s;
+}
+
+.nav-list li:nth-child(4) a {
+  transition: 0.5s 0.6s;
+}
+/* ---------------------Nav Bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100vw;
+  height: 58px;
+  margin-inline: auto;
+  /* background-image: linear-gradient(
+    to bottom,
+    rgba(251, 154, 195, 0.8),
+    rgba(248, 96, 135, 0.4)
+  ); */
+  background-image: linear-gradient(
+    to bottom,
+    rgb(251, 154, 195) 30%,
+    rgb(248, 96, 135)
+  );
+  background-position: center;
+
+  position: fixed;
+}
+
+.nav p {
+  font-size: 15px;
+  color: white;
+  margin-top: 15px;
+  margin-right: 45vw;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-top: 8px;
+}
+
+.hamburguer {
+  border: none;
+  background: none;
+  border-top: 3px solid #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.botao {
+  padding-block: 25px;
+  z-index: 1;
+  padding-inline: 2vh;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin-top: 5px;
+  position: relative;
+  transition: 0.3s;
+}
+/* ----------------------------- */
+
+/* ----------Resto dos Elementos---------------- */
+
+.contentop {
+  padding: 10vh 20px;
+  color: white;
+  height: 80vh;
+}
+
+.contentop h1 {
+  font-family: "Satisfy";
+  font-size: 65px;
+  -webkit-text-stroke: 1px;
+  margin-top: 5vh;
+  word-spacing: 5px;
+}
+
+.contentop p {
+  margin-top: 8vh;
+  font-size: 22px;
+}
+
+.contentop a {
+  display: block;
+  margin-top: 15vh;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  width: fit-content;
+  padding: 15px 10px;
+  border-radius: 25px;
+}
+
+/* -------------MAIN---------------------------- */
+.produtos {
+  height: 100vh;
+}
+
+.produtos h2 {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.produtos p {
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+}
+
+.produtos a {
+  color: black;
+}
+
+.carrossel {
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: auto;
+  width: 100vw;
+}
+
+.doces {
+  display: flex;
+  gap: 10px;
+  width: 100vw;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.doce {
+  flex: 0 0 auto;
+  width: 140vw;
+  /* margin-right: 50px;
+  margin-left: 50px; */
+  display: flex;
+  justify-content: center;
+}
+
+.doces a {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.doces img {
+  width: 250px;
+  height: 250px;
+
+  margin: auto;
+  object-fit: cover;
+}
