@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const doces = document.querySelector(".doces");
   const doceWidth = document.querySelector(".doce").offsetWidth;
   let currentIndex = 0;
-  const intervalTime = 9000; // Intervalo de tempo em milissegundos
+  const intervalTime = 3000; // Intervalo de tempo em milissegundos
 
   // Remover os botões de navegação
   document.querySelector(".prevBtn").remove();
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       doces.addEventListener("transitionend", function transitionEndHandler() {
         // Reiniciar o carrossel imediatamente após a transição terminar
         currentIndex = 0; // Voltar para o primeiro slide
-        // doces.style.transition = 'none'; // Remover transição para evitar animação brusca
+        doces.style.transition = ""; // Remover transição para evitar animação brusca
         doces.style.transform = `translateX(0)`;
 
         // Remover o ouvinte de evento para evitar múltiplas execuções
@@ -42,15 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
+
+  
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Código para controlar o carrossel existente
-  // Código para adicionar a navegação por gestos (swipe)
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  const doces = document.querySelector(".doces");
+const doces = document.querySelector(".doces");
   let startX = 0;
   let isDragging = false;
   let currentPosition = 0;
