@@ -301,13 +301,21 @@ nav.active .hamburguer::after {
 
 #Cupcake h2 {
   text-align: center;
-  margin: 2vh 0px;
+  margin: 3vh 0px;
+  font-family: "Satisfy";
+  font-size: 2em;
 }
 
 #Cupcake ul {
-  text-align: justify;
+  text-align: center;
 }
 
 #Cupcake h3 {
-  text-align: start;
+  text-align: center;
+  margin: 1vh 0px;
+}
+
+#Cupcake li {
+  font-size: 1.2em;
+  font-family: "Roboto";
 }
