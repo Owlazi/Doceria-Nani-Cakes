@@ -1,3 +1,8 @@
+const hamburguer = document.querySelector(".hamburguer");
+const nav = document.querySelector(".nav");
+
+hamburguer.addEventListener("click", () => nav.classList.toggle("active"));
+
 document.addEventListener("DOMContentLoaded", function () {
   const doces = document.querySelector(".doces");
   const doceWidth = document.querySelector(".doce").offsetWidth;
