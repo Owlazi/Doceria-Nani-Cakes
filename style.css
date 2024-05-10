@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -196,27 +198,34 @@ nav.active .hamburguer::after {
 .produtos {
   height: 100vh;
 }
+.doce a p {
+  color: #f25c84;
+  font-family: "Satisfy";
+  font-size: 60px;
+}
 
 .produtos h2 {
   margin-top: 5vh;
   text-align: center;
   margin-bottom: 5vh;
+  color: #f25c84;
+  font-family: "Satisfy";
+  font-size: 3em;
 }
 
 .produtos p {
   width: 80vw;
   text-align: center;
   margin: auto;
-}
-
-.produtos a {
-  color: black;
+  font-family: "Roboto";
+  font-size: 1.5em;
 }
 
 .carrossel {
   overflow: hidden;
   height: auto;
   width: 100vw;
+  margin: 0px 0px;
 }
 
 .doces {
@@ -236,7 +245,7 @@ nav.active .hamburguer::after {
   margin-top: 30px;
 }
 
-.doces a {
+.doces p {
   margin: auto;
   display: flex;
   justify-content: center;
@@ -257,4 +266,48 @@ nav.active .hamburguer::after {
 
 .doce3 {
   padding-right: 30px;
+}
+
+.botoes {
+  display: flex;
+  margin-top: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arr {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+  border-top: solid 8px #f25c84;
+  border-right: solid 8px #f25c84;
+}
+
+.prevBtn {
+  transform: rotate(225deg);
+}
+
+.nextBtn {
+  transform: rotate(45deg);
+}
+
+/* ------PARTE CUPCAKES--------- */
+
+#Cupcake {
+  margin-top: 50vh;
+  background: #fb9ac3;
+}
+
+#Cupcake h2 {
+  text-align: center;
+  margin: 2vh 0px;
+}
+
+#Cupcake ul {
+  text-align: justify;
+}
+
+#Cupcake h3 {
+  text-align: start;
 }
