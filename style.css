@@ -200,6 +200,7 @@ nav.active .hamburguer::after {
 .produtos h2 {
   margin-top: 5vh;
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 .produtos p {
@@ -213,7 +214,6 @@ nav.active .hamburguer::after {
 }
 
 .carrossel {
-  box-shadow: 2px 2px 4px black;
   overflow: hidden;
   height: auto;
   width: 100vw;
@@ -233,12 +233,14 @@ nav.active .hamburguer::after {
   display: block;
   justify-content: center;
   margin: auto;
+  margin-top: 30px;
 }
 
 .doces a {
   margin: auto;
   display: flex;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .doces img {
@@ -249,6 +251,10 @@ nav.active .hamburguer::after {
   object-fit: cover;
 }
 
-doce4 {
-  padding-right: 80px;
+.doce4 {
+  padding-right: 60px;
+}
+
+.doce3 {
+  padding-right: 30px;
 }
