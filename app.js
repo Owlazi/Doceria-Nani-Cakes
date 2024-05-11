@@ -1,7 +1,23 @@
 const hamburguer = document.querySelector(".hamburguer");
 const nav = document.querySelector(".nav");
+const menuItems = document.querySelectorAll(".nav-list li a");
 
-hamburguer.addEventListener("click", () => nav.classList.toggle("active"));
+// Função para fechar o menu hamburguer
+function fecharMenu() {
+  nav.classList.remove("active");
+}
+
+hamburguer.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
+
+// Adiciona um evento de clique a cada item do menu
+menuItems.forEach(function (item) {
+  item.addEventListener("click", function () {
+    // Fecha o menu hamburguer quando um item do menu é clicado
+    fecharMenu();
+  });
+});
 
 document.addEventListener("DOMContentLoaded", function () {
   const doces = document.querySelector(".doces");
