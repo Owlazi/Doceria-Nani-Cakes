@@ -273,7 +273,12 @@ nav.active .hamburguer::after {
 }
 
 .doce4 {
-  padding-right: 60px;
+  padding-right: 40px;
+}
+
+.doce4 p {
+  margin: auto;
+  padding-right: 40px;
 }
 
 .doce3 {
