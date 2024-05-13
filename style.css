@@ -393,6 +393,7 @@ nav.active .hamburguer::after {
 #docinhos p {
   text-align: center;
   color: #f25c84;
+  padding-top: 20px;
 }
 
 /* -----------Bolos-------------------- */
