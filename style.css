@@ -82,7 +82,7 @@ nav.active .hamburguer::after {
   font-size: 24px;
   color: #fff;
   padding-block: 16px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .nav-list li:nth-child(1) a {
@@ -423,9 +423,11 @@ nav.active .hamburguer::after {
 }
 
 #bolo ul {
-  padding: 40px 10px;
+  padding: 40px 20px;
   list-style: none;
   column-count: 2;
+  margin: 0px 10px;
+  margin-left: 0;
 }
 
 #bolo li {

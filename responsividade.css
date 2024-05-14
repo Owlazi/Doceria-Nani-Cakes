@@ -1,0 +1,390 @@
+@media screen and (min-width: 576px) {
+  body {
+    width: 100vw;
+  }
+
+  .nav p {
+    font-size: 19px;
+    color: white;
+    margin-top: 18px;
+    margin-right: 65vw;
+    font-family: "Satisfy";
+  }
+
+  .contentop {
+    height: 100vh;
+  }
+
+  .contentop h1 {
+    font-size: 4em;
+  }
+  .contentop p {
+    width: 450px;
+    font-size: 2em;
+  }
+  .contentop a {
+    padding: 25px;
+    font-size: 1.5em;
+    border-radius: 60px;
+  }
+
+  #Cupcake {
+    margin-top: 30vh;
+    background: #ffb6d0;
+  }
+
+  #Cupcake h1 {
+    text-align: center;
+    margin: 3vh 0px;
+    font-family: "Satisfy";
+    font-size: 5em;
+  }
+
+  #Cupcake h2 {
+    margin: 15px 0px;
+    text-align: center;
+    font-family: "Satisfy";
+    font-size: 3em;
+  }
+
+  #Cupcake ul {
+    text-align: center;
+  }
+
+  #Cupcake h3 {
+    margin: 3vh 0px;
+    text-align: center;
+    font-family: "Satisfy";
+    font-size: 3em;
+  }
+
+  #Cupcake li {
+    font-size: 1.6em;
+    font-family: "Roboto";
+    margin: 1vh 0px;
+    color: white;
+  }
+
+  #Cupcake p {
+    text-align: center;
+    margin: 40px 0px;
+    padding: 30px 10px;
+    text-decoration: underline;
+    font-size: 1.5em;
+  }
+
+  #recheios {
+    column-count: 2;
+    list-style: none;
+    align-items: center;
+    margin: 0px 40px;
+  }
+
+  #massas {
+    padding: 0px 40px;
+    list-style: none;
+    justify-content: center;
+  }
+
+  #docinhos h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Satisfy";
+    font-size: 5em;
+    color: #f25c84;
+  }
+
+  #docinhos h2 {
+    font-family: "Satisfy";
+    text-align: center;
+    color: #f25c84;
+    font-size: 3em;
+  }
+
+  #docinhos li {
+    font-size: 1.5em;
+    padding: 15px 5px;
+  }
+
+  #docinhos ul {
+    list-style: none;
+    column-count: 3;
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  #docinhos p {
+    text-align: center;
+    color: #f25c84;
+    padding-top: 20px;
+    font-size: 1.5em;
+  }
+
+  #bolo {
+    margin: 60px 0px;
+    background-color: #ffb6d0;
+  }
+
+  #bolo h1 {
+    text-align: center;
+    font-family: "Satisfy";
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-size: 5em;
+  }
+
+  #bolo h2 {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    font-size: 2.5em;
+  }
+
+  #bolo ul {
+    padding: 40px 10px;
+    list-style: none;
+    column-count: 2;
+  }
+
+  #bolo li {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 1.6em;
+  }
+
+  #bolo p {
+    text-align: center;
+  }
+
+  #kit h2 {
+    text-align: center;
+    font-family: "Satisfy";
+    font-size: 3.5em;
+    margin-bottom: 40px;
+    color: #f25c84;
+  }
+
+  #kit ul {
+    list-style: none;
+  }
+
+  .kits {
+    padding: 20px;
+    border: #f25c84 3px solid;
+  }
+
+  .risco {
+    text-decoration: line-through;
+    color: #fb9ac3;
+  }
+
+  #kit h3 {
+    font-family: "Satisfy";
+  }
+
+  .kit1,
+  .kit2,
+  .kit3 {
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 1px 4px 2px #fb9ac3;
+    font-size: 1.2em;
+  }
+  #contato {
+    margin: 10vh 15px;
+    height: 50vh;
+  }
+
+  #contato p {
+    width: 400px;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.1em;
+  }
+
+  #contato h1 {
+    text-align: center;
+    font-size: 5em;
+    margin: 20px 0px;
+    font-family: "Satisfy";
+  }
+
+  #contato a {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    background-color: #fb9ac3;
+    width: 230px;
+    height: 60px;
+    padding-top: 12px;
+    border-radius: 29px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav p {
+    font-size: 19px;
+    color: white;
+    margin-top: 18px;
+    margin-right: 75vw;
+    font-family: "Satisfy";
+  }
+
+  .hamburguer {
+    display: none;
+  }
+  .nav-list {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 5px;
+    background: transparent;
+    clip-path: none;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    transition: none;
+  }
+
+  .nav-list a {
+    font-size: 17px;
+    color: #fff;
+    padding-block: 16px;
+    padding: 0px 10px;
+    pointer-events: all;
+    transition: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    height: 58px;
+    margin-inline: auto;
+    background-image: linear-gradient(
+      to bottom,
+      rgb(251, 154, 195) 30%,
+      rgb(248, 96, 135)
+    );
+    background-position: center;
+
+    position: fixed;
+  }
+  .nav p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 85vw;
+    font-family: "Satisfy";
+  }
+
+  .contentop a {
+    margin-top: 30vh;
+  }
+
+  .contentop a:hover {
+    border: 3px solid #f25c84;
+    color: #f25c84;
+    transition: ease-in-out 0.3s color;
+  }
+
+  .nav-list {
+    padding-left: 98vw;
+  }
+
+  .nav-list a {
+    font-size: 17px;
+    color: #fff;
+    padding-block: 16px;
+    padding: 0px 10px;
+    pointer-events: all;
+    transition: none;
+  }
+
+  header,
+  main,
+  footer {
+    max-width: 900px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+  }
+
+  .produtos p {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .carrossel {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .doces {
+    max-width: 600px;
+    margin: 40px auto;
+  }
+
+  .kitcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .kit1 h2,
+  .kit2 h2 {
+    margin-top: 24px;
+  }
+
+  #contato {
+    margin: 10vh auto;
+    height: 50vh;
+    max-width: 800px;
+  }
+
+  #contato h1 {
+    text-align: center;
+    font-size: 5em;
+    margin: 20px 0px;
+    font-family: "Satisfy";
+  }
+
+  #contato p {
+    width: 800px;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+
+  #contato a {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    background-color: #fb9ac3;
+    width: 230px;
+    height: 60px;
+    padding-top: 12px;
+    border-radius: 29px;
+  }
+
+  footer {
+    background-color: #fb9ac3;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
